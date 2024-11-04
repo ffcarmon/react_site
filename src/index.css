@@ -1,0 +1,52 @@
+/* Import Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Code blocks, using default font */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Layout adjustment to show footer without scrolling */
+.ant-layout-content {
+  min-height: calc(100vh - 128px); /* Adjusted height to fit header and footer */
+  padding: 20px;
+}
+
+/* Styling the footer */
+.ant-layout-footer {
+  /*background-color: #f0f2f5;*/
+  background-color: #bfbfbf;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  color: #555;
+}
+
+/* Sidebar logo customization */
+.demo-logo-vertical h3 {
+  color: #fff !important;
+  padding: 5px !important;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Optional: Create reusable Montserrat classes with different weights */
+.montserrat-light {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.montserrat-regular {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.montserrat-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}

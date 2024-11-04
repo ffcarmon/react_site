@@ -1,0 +1,82 @@
+/* Set the font-family globally */
+.tables {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    background-color: #f5f7fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header styling */
+.ant-table-thead > tr > th {
+    background-color: #007acc;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Table row styling */
+.ant-table-row {
+    background-color: dodgerblue;
+}
+
+.ant-table-row:nth-child(odd) {
+    background-color: lightskyblue;
+}
+
+.ant-table-row:hover {
+    background-color: #e6f7ff !important;
+}
+
+/* Table cell styling */
+.ant-table-tbody > tr > td {
+    padding: 16px;
+    font-size: 16px;
+    text-align: center;
+    color: #4a4a4a;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Search input styling */
+.ant-input {
+    font-family: 'Montserrat', sans-serif;
+    width: 40%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #bfbfbf;
+    font-size: 14px;
+}
+
+/* Search input focus styling */
+.ant-input:focus {
+    border-color: #40a9ff;
+    box-shadow: 0 0 6px rgba(64, 169, 255, 0.5);
+}
+
+/* Button styling */
+.tables h3 {
+    color: #333333;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tables button {
+    background-color: #007acc;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 15px;
+}
+
+.tables button:hover {
+    background-color: #005b99;
+}

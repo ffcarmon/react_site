@@ -1,0 +1,35 @@
+img {
+    border-radius: 10px !important;
+}
+
+/* Styling for each meal item frame */
+.meal-card {
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.meal-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Text alignment and spacing for meal items */
+.meal-card p {
+    margin: 8px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.meal-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.meal-id {
+    color: #777;
+    font-size: 14px;
+}
