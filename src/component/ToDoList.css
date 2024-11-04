@@ -1,0 +1,57 @@
+.todo-container {
+    padding: 20px;
+}
+
+.todo-list {
+    margin-top: 20px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activity-text {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.ant-list-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Modal animation from top */
+.modal-top-slide .ant-modal {
+    top: -20%;
+}
+
+.modal-top-slide.ant-modal-visible .ant-modal {
+    top: 20%;
+    transition: top 0.4s ease-out;
+}
+
+.full-width-input {
+    width: 100%;
+}
+
+/* Frame around the form */
+.todolist-frame {
+    padding: 30px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1000px;
+    font-family: 'Montserrat', sans-serif;
+}
